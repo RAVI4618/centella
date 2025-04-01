@@ -1,0 +1,608 @@
+.ketcher-editor {
+   width: 100%;
+   height: 882px;
+   Top:100px;
+   left: 293px;
+   background-color: #F7F8FA;
+  
+
+  }
+  
+  .editor{
+   position: relative;
+   left: 1px;
+  }
+  .text-area {
+    /* width: 791.22px; */
+    /* max-width: 700px;  */
+    /* height: 36px; Adjust the height of the textarea */
+    /* resize: vertical;  */
+    /* margin-bottom: 27px; Add margin as needed */
+  }
+  
+  /* .ketcher-editor > div {
+    width: 100%;
+    height: calc(100% - 120px); /* Adjust based on the height of textarea and padding */
+  /* } */
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+
+
+
+ .jsme-cont{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  margin-right: 30px;
+ }
+
+ /* Custom styles for the JSME editor */
+ .JsmeEditor {
+   background-color: #ffffff; /* White background color */
+ }
+
+ /* Custom styles for the SMES input textarea */
+ .smiles-input-container textarea {
+  width: 620px;
+  height: 64px;
+  display: flex;
+  /* padding-left: 49px; */
+   /* border: 1px solid #981010; */
+   border-radius: 5px;
+
+ }
+
+ .predict-button{
+  /* border: #7CA73E;
+  background-color: #7CA73E; */
+  border: #735AA7;
+  background-color: #735AA7;
+  color: white;
+  width: 137px;
+  height: 45px;
+  border-radius: 3px;
+  position: relative;
+  left: 28%;
+  /* bottom: 100px; */
+  margin-top: 20px;
+
+    /* left: 72%; */
+  
+ }
+
+ /* Add this to your global styles (or component-specific styles) */
+/* @keyframes dashed-border-animation {
+  0% {
+      border-style: dashed;
+      border-width: 1px;
+  }
+  50% {
+      border-style: dashed;
+      border-width: 3px;
+  }
+  100% {
+      border-style: dashed;
+      border-width: 2px;
+  }
+} */
+
+/* Class to trigger the dashed border animation on hover */
+/* .animate-dashed-border:hover {
+  animation: dashed-border-animation 1s ease-in-out infinite;
+} */
+
+
+ .predict {
+  border: 1px solid #735AA7;
+  background-color: #735AA7;
+  color: white;
+  width: 137px;
+  height: 36px;
+  border-radius: 3px;
+  /* margin-left: 10px;  */
+  position: relative;
+  right: 70px;
+}
+
+
+
+ /* page section adjustments  */
+
+
+ .page-dashboard{
+    left: 293px;
+    /* margin-top: 100px; */
+    width: 1221px;
+    height:882px;
+    background-color: #F7F8FA;
+    float: right;
+    /* font-family: 'Raleway';  */
+ }
+
+ .header{
+    display: flex;
+    /* padding-left: 49px; */
+    /* padding-top: 32px; */
+    margin-top: 30px;
+ }
+
+ .project-header{
+    display: flex;
+    /* padding-left: 49px; */
+   font-size: 24px;
+   font-weight: 600;
+   font-family: 'Raleway';
+ }
+
+ .path-editors {
+  display: flex;
+    /* padding-left: 49px; */
+    top: 140px;
+    font-family: 'Segoe UI';
+    
+ }
+
+ .path-editors p{
+    margin-top: 20px;
+    margin-right: 40px;
+    font-size: 16px;
+ }
+
+ .smile{
+    font-weight: 600;
+    color: #746AAF;
+    cursor: pointer;
+ }
+
+ .visual{
+    font-weight: 600;
+    color: #746AAF;
+    cursor: pointer;
+ }
+
+ .upload{
+    font-weight: 600;
+    color: #746AAF;
+    cursor: pointer;
+ }
+
+ .exampleR{
+    color:#4E8FAB;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    /* font-weight: 600; */
+
+    font-family: 'Raleway';
+    /* margin-left: 63%; */
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 635px;
+    /* font-weight: 600; */
+    width: 120px;
+    height: 24px;
+    margin-top: 10px;
+    cursor: pointer;
+
+ }
+
+ .get-an-example{
+  margin-right: 27.5vw;
+  font-family: 'Raleway';
+  
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+    /* font-weight: 600; */
+  
+    margin-top: 10px;
+    cursor: pointer;
+ }
+
+ .input-field{
+    width: 791px;
+    height: 64px;
+    display: flex;
+    /* padding-left: 49px; */
+
+}
+
+.example{
+  color:#4E8FAB;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  /* font-weight: 600; */
+
+  font-family: 'Raleway';
+  /* margin-left: 63%; */
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 635px;
+  /* font-weight: 600; */
+  width: 120px;
+  height: 24px;
+  margin-top: 10px;
+  cursor: pointer;
+
+}
+
+
+.get-smile-button{
+  background-color: #735AA7;
+  color: white;
+  width: 100px;
+  height: 30px;
+  border: #bbbbbb;
+  border-radius: 3px;
+  font-size: 14px;
+  font-family: 'Segoe UI';
+  /* margin-left: 10px; */
+  position: relative;
+  right: 70px;
+}
+
+
+.validate{
+    background-color: #bbbbbb;
+    color: white;
+    width: 109px;
+    height: 36px;
+    border: #bbbbbb;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: 'Segoe UI';
+    /* margin-left: 10px; */
+    position: relative;
+    right: 80px;
+
+    /* margin-left: 10px; */
+    position: relative;
+    right: 80px;
+}
+
+.validate2{
+  background-color: #bbbbbb;
+  color: white;
+  width: 109px;
+  height: 36px;
+  border: #bbbbbb;
+  border-radius: 3px;
+  font-size: 16px;
+  font-family: 'Segoe UI';
+  /* margin-left: 10px; */
+  position: relative;
+  right: 100px;
+}
+
+.popover-notification{
+
+  position: relative;
+  padding: 10px;
+  bottom: 120px;
+  left: 140px;
+  color: black;
+  width: 386px;
+  height: 158px;
+  border-radius: 10px;
+}
+
+.popover{
+   font-family: 'Raleway';
+   padding: 10px;
+}
+
+
+
+
+
+.get-smiles-button{
+  background-color: #735AA6;
+  color: white;
+  width: 109px;
+  height: 30px;
+  border: #bbbbbb;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: 'Segoe UI';
+  /* margin-left: 10px; */
+  position: relative;
+  right: 70px;
+}
+  
+
+
+/* .export-formats{
+   padding: 20px;
+   height: 700px;
+   width: 900px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+} */
+
+
+.compare-routes{
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   width: 242px;
+   height: 511px;
+   top:888px;
+   margin-left: 50px;
+   border-radius: 5px;
+}
+
+.routes{
+   background-color: #4E8FAB;
+   border: #4E8FAB;
+   border-radius: 10px;
+   width: 206px;
+   height: 46px;
+   margin-top: 19px;
+   margin-left: 19px;
+}
+
+.results-page{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+
+.results-routes{
+   height: 511px;
+   width: 858px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.app-results{
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  height: 500px;
+  margin-left: 300px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 8px;
+  position: relative;
+  bottom: 510px;
+}
+
+.form-checkbox:checked {
+  background-color: var(--checked-color);
+  border-color: var(--checked-color);
+}
+
+
+
+.upload-popup {
+  position: fixed;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.upload-area {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.close-button {
+  background-color: #ccc;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.upload-popup {
+  position: fixed;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.upload-area {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.close-button {
+  background-color: #ccc;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+.tooltip-content {
+  background-color: #333; /* Default background color */
+  border-radius: 4px;
+  padding: 8px;
+  max-width: 300px; /* Adjust width as needed */
+  white-space: nowrap;
+  z-index: 9999; /* Ensure it is above other elements */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  position: absolute; /* Position it absolutely to handle placement */
+  bottom: 125%; /* Adjust based on desired placement */
+  left: 50%; /* Adjust based on desired placement */
+  transform: translateX(-50%);
+  pointer-events: none; /* Prevent pointer events from affecting tooltip */
+}
+
+.group:hover .tooltip-content {
+  opacity: 1;
+}
+
+
+
+
+.custom-toast {
+  margin-top: 20px; /* Adjust the margin-top value as needed */
+}
+
+
+
+
+
+/* @media only screen and (min-width:1024px){
+  .home-page{
+     position: relative ;
+     margin-left: 200px;
+  }
+
+  .total{
+     margin-left: 200px;
+  }
+
+} */
+
+
+/* @media screen and (min-width: 1024px) {
+  .home-page {
+      flex-direction: column;
+      position: relative;
+      margin-left: 100px;
+  }
+
+  .basis-7\/12,
+  .basis-5\/12 {
+      width: 100%;
+      margin-left: 0;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  .side-nav {
+    width: 100%;
+    left: 0;
+  }
+} */
+
+
+
+
+
+ /* @media (max-width: 1144px) {
+  .side-nav {
+    /* Adjust the position or width of the SideNav for smaller screens */
+    /* For example: */
+    /* width: 200px; */
+  /* } */
+/* }  */
+
+
+@media (max-width: 1144px){
+  .gen-chem{
+     position: fixed;
+  }
+}
+
+/* @media(min-width: 1024px){
+  .graphs-container{
+     position: relative;
+     margin-left:'70%';
+  }
+} */
+
+
+
+
+
+
+
+/*
+  @media (max-width: 1384px){
+    .home-page{
+     position: fixed;
+    }
+} */
+
+
+/* .user-icon{
+  position: relative;
+  margin-bottom: 4px;
+} */
+
+
+
+/* this is for admet home page component */
+
+/* @media (max-width: 1390px) {
+  .home-page {
+    display: flex;
+    flex-direction: column-reverse; /* Reverse the order of the flex items */
+  /* } */
+
+  /* .updates-container { */
+    /* z-index: 1; Set a higher z-index for the updates container */
+  /* } */
+
+  /* .projects-container { */
+    /* z-index: 0; Set a lower z-index for the projects container */
+  /* } */
+/* } */
+
+.heading-centella{
+  font-family: 'Segoe UI';
+}
+
+@media (max-width:1037px){
+  .heading-centella{
+     margin-right: 10%;
+  }
+}
+
+@media screen and (max-width: 1380px) {
+  .home-page {
+      position: relative;
+      z-index: 10;
+      margin-left: 30px;
+  }
+}
+
+/* .admet-home-page{
+  overflow-x: auto;
+} */
+
+
+/* .first-check-box{
+  position: relative;
+  right: 20px;
+}  */
+
+
+/* In your global styles or Tailwind CSS config */
+.scrollbar-default::-webkit-scrollbar {
+  width: 8px; /* Adjust scrollbar width */
+  height: 8px; /* Adjust scrollbar height */
+}
+
+.scrollbar-default::-webkit-scrollbar-thumb {
+  background-color: #9fa3a9; /* Scrollbar thumb color */
+  border-radius: 4px;
+}
+
+.scrollbar-default::-webkit-scrollbar-track {
+  background: #e2e8f0; /* Track color */
+}
+
+
+
+
+
+
+
+
+
+
+

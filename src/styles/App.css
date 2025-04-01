@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    /* font-family: "Segoe UI","Raleway", sans-serif; */
+    font-family: 'Segoe UI', sans-serif !important;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #F1F4FB;
+    color: #1C1C1C;
+}
+.bg_outlet{
+    background-color: #F7F8FA;
+}
+
+
+/* * {
+  scrollbar-width: thin;
+  scrollbar-color: var(--secondary) var(--primary);
+} */
+  
+  
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--primary);
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--secondary);
+  border-radius: 4px;
+  border: 3px solid var(--primary);
+}

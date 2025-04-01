@@ -1,0 +1,66 @@
+.ag-theme-alpine {
+  border-radius: 14px;
+  overflow: hidden;
+  --ag-odd-row-background-color: #FFFFFF;
+  --ag-header-background-color: #FFFFFF;
+  --ag-borders: none;
+
+  border: 1px solid #E0E0E0;
+  --ag-font-size: 14px;
+  /* --ag-font-family: 'Segoe UI', sans-serif; */
+  --ag-row-border-color: #FFFFFF;
+ 
+  /* Updated scrollbar styling */
+  --ag-scrollbar-size: 10px;
+}
+
+.ag-theme-alpine .ag-row-even {
+  background-color: #F0F0F0;
+}
+
+/* Updated custom scrollbar styles */
+.ag-theme-alpine ::-webkit-scrollbar {
+  width: 10px;
+  height: 0;
+  /* opacity: ; */
+}
+
+.ag-theme-alpine ::-webkit-scrollbar-thumb {
+  background-color: #A8A8A8;
+  border-radius: 5px;
+  border: 2px solid #ffffff;
+  background-clip: padding-box;
+  opacity: 0.8;
+}
+
+.ag-theme-alpine ::-webkit-scrollbar-thumb:hover {
+  background-color: #959595;
+  border: 1.5px solid #ffffff;
+}
+
+.ag-theme-alpine ::-webkit-scrollbar-track {
+  background-color: #F0F0F0;
+  border-radius: 5px;
+}
+
+/* Hide horizontal scrollbar */
+.ag-theme-alpine .ag-body-horizontal-scroll {
+  display: none !important;
+}
+
+/* Remove the horizontal scrollbar corner */
+.ag-theme-alpine ::-webkit-scrollbar-corner {
+  display: none;
+}
+
+/* Remove the horizontal scroll border styling */
+.ag-body-horizontal-scroll {
+  display: none !important;
+  border: none;
+}
+
+/* Keep only vertical scroll border if needed */
+.ag-body-vertical-scroll {
+  border: 1px solid #E0E0E0;
+}
+

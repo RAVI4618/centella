@@ -1,0 +1,14 @@
+.dashboard-huge-shadow {
+    box-shadow: 3px 3px 6px #00000072;
+  }
+   
+  .dashboard-background {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    transition: background-image 0.3s ease-in-out;
+  }
+   
+  .dashboard-background:hover {
+    background-image: url('../images/wave.svg'); /* Replace with the actual path to your SVG */
+  }

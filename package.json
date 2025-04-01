@@ -1,0 +1,92 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ag-grid-community/client-side-row-model": "^32.0.0",
+    "@ag-grid-community/core": "^32.0.0",
+    "@ag-grid-community/react": "^32.0.0",
+    "@azure/msal-browser": "^3.10.0",
+    "@azure/msal-react": "^2.0.12",
+    "@babel/core": "^7.2.0",
+    "@dagrejs/dagre": "^1.1.4",
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@reduxjs/toolkit": "^2.2.1",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@xyflow/react": "^12.3.2",
+    "3dmol": "^2.4.0",
+    "ag-grid-community": "^32.0.1",
+    "ag-grid-react": "^32.0.0",
+    "assert": "^2.1.0",
+    "axios": "^1.7.2",
+    "clsx": "^2.1.0",
+    "date-fns": "^3.6.0",
+    "echarts": "^5.5.1",
+    "echarts-for-react": "^3.0.2",
+    "echarts-stat": "^1.2.0",
+    "fns": "^1.0.0",
+    "html-to-image": "^1.11.11",
+    "html2canvas": "^1.4.1",
+    "jotai": "^2.7.0",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.8.2",
+    "ketcher-core": "^2.18.0",
+    "ketcher-react": "^2.18.0",
+    "ketcher-standalone": "^2.18.0",
+    "lucide-react": "^0.454.0",
+    "parcel-bundler": "^1.6.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.2.1",
+    "react-modal": "^3.16.1",
+    "react-quill": "^2.0.0",
+    "react-redux": "^7.2.9",
+    "react-router-dom": "^6.22.2",
+    "react-scripts": "^5.0.1",
+    "react-switch": "^7.0.0",
+    "react-table": "^7.8.0",
+    "react-toastify": "^10.0.5",
+    "react-tooltip": "^5.26.4",
+    "recharts": "^2.12.7",
+    "smiles-drawer": "^1.2.0",
+    "sonner": "^1.4.3",
+    "tw-elements": "^2.0.0",
+    "tw-elements-react": "^1.0.0-alpha2",
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts  --max_old_space_size=8192 build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1"
+  }
+}

@@ -1,0 +1,122 @@
+[
+    {
+        "id":1,
+        "project_name":"AAT1 Drug Prediction",
+        "description":"AAT1 Drug Prediction is a web application that predicts the drug resistance of AAT1 protein based on the user input. The user can input the sequence of the AAT1 protein and the application will predict the drug resistance of the AAT1 protein and display the results in a web page.",
+        "image":"aat1.png",
+        "collabrators":["Kalyan M","Dr Riyaz","Balakrishna Nandimandalam"],
+        "createdDate":"2023-03-20",
+        "lastUpdated":"2023-03-20 10:15:30",
+        "owner": "Keerthana",
+        "status": "In Progress",
+        "numOfRoutes": 5
+    },
+    {
+        "id":2,
+        "project_name":"ATarget Z Retro Routes",
+        "description":"Target Z Retro Routeson that predicts the drug resistance of AAT1 protein based on the user input. The user can input the sequence of the AAT1 protein and the application will predict the drug resistance of the AAT1 protein and display the results in a web page.",
+        "image":"aat1.png",
+        "collabrators":["Sandeep Nanduri","Dr Riyaz","Balakrishna Nandimandalam"],
+        "createdDate":"2023-02-20",
+        "lastUpdated":"2023-03-20 10:15:30",
+        "owner": "Keerthana",
+        "status": "In Progress",
+        "numOfRoutes": 5
+    },
+    {
+        "id":3,
+        "project_name":"OOT1 Drug Prediction",
+        "description":"66 Drug Prediction is a web application that predicts the drug resistance of AAT1 protein based on the user input. The user can input the sequence of the AAT1 protein and the application will predict the drug resistance of the AAT1 protein and display the results in a web page.",
+        "image":"aat1.png",
+        "collabrators":["Python","Flask","HTML","CSS","JavaScript"],
+        "createdDate":"2023-03-20",
+        "lastUpdated":"2023-03-20 10:15:30",
+        "owner": "Keerthana",
+        "status": "In Progress",
+        "numOfRoutes": 5
+    },
+    {
+        "id":4,
+        "project_name":"AAT1 Drug Prediction",
+        "description":"AAT1 Drug Prediction is a web application that predicts the drug resistance of AAT1 protein based on the user input. The user can input the sequence of the AAT1 protein and the application will predict the drug resistance of the AAT1 protein and display the results in a web page.",
+        "image":"aat1.png",
+        "collabrators":["Python","Flask","HTML","CSS","JavaScript"],
+        "createdDate":"2023-03-20",
+        "lastUpdated":"2023-03-20 10:15:30",
+        "owner": "Pavan",
+        "status": "In Progress",
+        "numOfRoutes": 5
+    },
+    {
+        "id":5,
+        "project_name":"AAWT1 Drug Prediction",
+        "description":"AAT1 Drug Prediction is a web application that predicts the drug resistance of AAT1 protein based on the user input. The user can input the sequence of the AAT1 protein and the application will predict the drug resistance of the AAT1 protein and display the results in a web page.",
+        "image":"aat1.png",
+        "collabrators":["Python","Flask","HTML","CSS","JavaScript"],
+        "createdDate":"2023-01-20",
+        "lastUpdated":"2023-03-20 10:15:30",
+        "owner": "Kalyan",
+        "status": "Completed",
+        "numOfRoutes": 5
+    },
+    {
+        "id":6,
+        "project_name":"AAT551 Drug Prediction",
+        "description":"AAT1 Drug Prediction is a web application that predicts the drug resistance of AAT1 protein based on the user input. The user can input the sequence of the AAT1 protein and the application will predict the drug resistance of the AAT1 protein and display the results in a web page.",
+        "image":"aat1.png",
+        "collabrators":["Python","Flask","HTML","CSS","JavaScript"],
+        "createdDate":"2023-03-20",
+        "lastUpdated":"2023-03-20 10:15:30",
+        "owner": "Dr. Riyaz",
+        "status": "In Progress",
+        "numOfRoutes": 5
+    },
+    {
+        "id":7,
+        "project_name":"AAjjT1 Drug Prediction",
+        "description":"AAT1 Drug Prediction is a web application that predicts the drug resistance of AAT1 protein based on the user input. The user can input the sequence of the AAT1 protein and the application will predict the drug resistance of the AAT1 protein and display the results in a web page.",
+        "image":"aat1.png",
+        "collabrators":["Python","Flask","HTML","CSS","JavaScript"],
+        "createdDate":"2023-01-20",
+        "lastUpdated":"2023-03-20 10:15:30",
+        "owner": "Keerthana",
+        "status": "In Progress",
+        "numOfRoutes": 5
+    },
+    {
+        "id":8,
+        "project_name":"AAT1 Drug Prediction",
+        "description":"AAT1 Drug Prediction is a web application that predicts the drug resistance of AAT1 protein based on the user input. The user can input the sequence of the AAT1 protein and the application will predict the drug resistance of the AAT1 protein and display the results in a web page.",
+        "image":"aat1.png",
+        "collabrators":["Python","Flask","HTML","CSS","JavaScript"],
+        "createdDate":"2023-03-20",
+        "lastUpdated":"2023-03-20 10:15:30",
+        "owner": "Bala",
+        "status": "Completed",
+        "numOfRoutes": 5
+    },
+    {
+        "id":9,
+        "project_name":"AAT1 Drug Prediction",
+        "description":"AAT1 Drug Prediction is a web application that predicts the drug resistance of AAT1 protein based on the user input. The user can input the sequence of the AAT1 protein and the application will predict the drug resistance of the AAT1 protein and display the results in a web page.",
+        "image":"aat1.png",
+        "collabrators":["Python","Flask","HTML","CSS","JavaScript"],
+        "createdDate":"2023-03-20",
+        "lastUpdated":"2023-03-20 10:15:30",
+        "owner": "Pavan",
+        "status": "In Progress",
+        "numOfRoutes": 5
+    }
+    ,{
+        "id":10,
+        "project_name":"AAT1 Drug Prediction",
+        "description":"AAT1 Drug Prediction is a web application that predicts the drug resistance of AAT1 protein based on the user input. The user can input the sequence of the AAT1 protein and the application will predict the drug resistance of the AAT1 protein and display the results in a web page.",
+        "image":"aat1.png",
+        "collabrators":["Python","Flask","HTML","CSS","JavaScript"],
+        "createdDate":"2023-03-20",
+        "lastUpdated":"2023-03-20 10:15:30",
+        "owner": "Kalyan",
+        "status": "Completed",
+        "numOfRoutes": 5
+    }
+]

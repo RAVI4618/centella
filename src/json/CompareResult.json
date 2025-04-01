@@ -1,0 +1,21 @@
+{
+    "properties": [
+      {
+        "property": "nHD",
+        "values": { "Value 1": "10", "Value 2": "20", "Value 3": "30", "Value 4": "40", "Value 5": "50", "Value 6": "60", "Value 7": "70" }
+      },
+      {
+        "property": "Volume",
+        "values": { "Value 1": "100", "Value 2": "200", "Value 3": "300", "Value 4": "400", "Value 5": "500", "Value 6": "600", "Value 7": "700" }
+      },
+      {
+        "property": "nRot",
+        "values": { "Value 1": "15", "Value 2": "25", "Value 3": "35", "Value 4": "45", "Value 5": "55", "Value 6": "65", "Value 7": "75" }
+      },
+      {
+        "property": "nRing",
+        "values": { "Value 1": "5", "Value 2": "15", "Value 3": "25", "Value 4": "35", "Value 5": "45", "Value 6": "55", "Value 7": "65" }
+      }
+    ]
+  }
+  

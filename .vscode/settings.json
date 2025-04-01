@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/b7fdb170-9b55-472b-b59d-d76a114c26ef/resourceGroups/dev_app/providers/Microsoft.Web/sites/caibackoffice-dev",
+    "appService.deploySubpath": "."
+}
